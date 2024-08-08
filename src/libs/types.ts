@@ -14,6 +14,6 @@ interface CommentProps {
     username: string, 
     commentText: string,  
     likeNum: number, 
-    replies: ReplyProps[],
+    
 }
 export type { CommentProps };

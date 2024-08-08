@@ -8,7 +8,7 @@ export default function Comment({
   username,
   commentText,
   likeNum,
-  replies,
+ 
 }: CommentProps){
 
 
