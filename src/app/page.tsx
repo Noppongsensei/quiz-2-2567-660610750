@@ -24,11 +24,7 @@ export default function Home() {
         <Comment userImagePath="/profileImages/lisa.jpg" username="Lisa" commentText="จริงค่า" likeNum={99} 
         
         />
-        <Comment username= "Charlie Brown"
-    userImagePath= "/profileImages/charliebrown.jpg"
-    commentText= "บ้าไปแล้ว"
-    likeNum= {0}
-    />
+        
         {/* Reply Example */}
         
         <Reply username= "หมาน้อย"
@@ -41,6 +37,12 @@ export default function Home() {
         replyText= "ลิซ่าาาาาาา"
         likeNum= {2}
         />
+
+<Comment username= "Charlie Brown"
+    userImagePath= "/profileImages/charliebrown.jpg"
+    commentText= "บ้าไปแล้ว"
+    likeNum= {0}
+    />
 
         {/* map-loop render Comment component here */}
        
